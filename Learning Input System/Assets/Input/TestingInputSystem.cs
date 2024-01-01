@@ -7,9 +7,10 @@ public class TestingInputSystem : MonoBehaviour
 {
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed)
-        {
-            Debug.Log("Jump " + ctx.phase);
-        }
+        Debug.Log(ctx);
+        //if (ctx.performed)
+        //{
+        //    Debug.Log("Jump " + ctx.phase);
+        //}
     }
 }
