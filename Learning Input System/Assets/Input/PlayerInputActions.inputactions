@@ -11,7 +11,16 @@
                     "id": "e5980912-4812-455d-9bcd-759b138d5fc7",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Hold",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "9ad741f8-4cda-40c1-a995-93f035ce164e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
                     "initialStateCheck": false
                 }
             ],
@@ -24,6 +33,65 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81edc7d0-d4f5-408d-a064-873953b8c16e",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "f393e3d4-d22c-48dd-a128-c416c01dfe14",
+            "actions": [
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "341f35e6-8364-4717-8029-b2b02009f4dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Player",
+                    "type": "Button",
+                    "id": "fe435558-0d83-415b-bc77-36574f96dae7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec443e74-3cca-4f12-8f4e-0e9eaace73b2",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ff3ddd6-ba6c-4359-9a8d-f3371720e986",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
